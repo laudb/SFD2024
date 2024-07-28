@@ -917,6 +917,46 @@ strong {
 
 
 /*---------------------------------------
+  CUSTOM STYLES
+-----------------------------------------*/
+
+
+/* CONTRIBUTORS */
+#contributor-link {
+  text-align: center;
+}
+
+#contributor-link img {
+  border: solid 2px #ef8000;
+}
+
+#contributor-link:hover img{
+  border: solid 2px #fff;
+}
+
+#contributor-link:hover h3{
+  color: #ef8000;
+}
+
+
+/* SPONSORS */
+#sponsor-link {
+  text-align: center;
+}
+
+#sponsor-link img {
+  border: solid 2px #198639;
+}
+
+#sponsor-link:hover img {
+  border: solid 2px #fff;
+}
+
+#sponsor-link:hover h3 {
+  color: #198639;
+}
+
+/*---------------------------------------
   RESPONSIVE STYLES               
 -----------------------------------------*/
 @media screen and (max-width: 991px) {
